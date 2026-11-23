@@ -1,0 +1,8 @@
+{
+  // rust-analyzer's own live diagnostics, computed on unsaved text as you type.
+  "rust-analyzer.diagnostics.enable": true,
+  "rust-analyzer.diagnostics.experimental.enable": true,
+
+  // cargo check still runs on save for full borrow-checker/trait errors.
+  "rust-analyzer.checkOnSave": true
+}
